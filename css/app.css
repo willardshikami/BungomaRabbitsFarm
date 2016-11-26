@@ -54,7 +54,7 @@ table {
 
 
 .body{
-    font-family: 'Muli', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 /*
@@ -76,7 +76,7 @@ header{
 }
 
 .logo h1{
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 30px;
     padding: 10px 0 0 30px;
 }
@@ -118,7 +118,7 @@ header{
 
 .menu{
     z-index:1000000; 
-    font-weight:bold; 
+    font-weight:400; 
     font-size:0.8em; 
     width:100%; 
     background-color: rgba(0, 0, 0, 0.5);;  
@@ -147,7 +147,7 @@ header{
 }
 
 .menu ul li a { 
-    font-family: 'Muli', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-decoration:none;  
     margin: 0px; 
     color:#fff;
@@ -197,10 +197,22 @@ header{
   ========================================
 */
 .home-img{
-    background-image: url(../image/home.jpg);
+    background-image: url(../image/home1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+}
+
+.landing-text{
+    padding: 300px 0 0 30px;
+}
+
+
+.landing-text h1{
+    color: #222;
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
 }
 
 
@@ -211,7 +223,7 @@ header{
 */
 
 .products{
-    font-family: 'Muli', sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding: 0 200px 50px 200px;
     text-align: center;
 }
@@ -346,8 +358,6 @@ header{
 		margin: 1% 0 1% 0%;
 	}
 }
-
-
 
 
 
