@@ -81,6 +81,11 @@ header{
     padding: 10px 0 0 30px;
 }
 
+.logo a{
+    color: #FFF;
+    text-decoration: none;
+}
+
 
 .hamburger{
   background:none;
@@ -175,6 +180,7 @@ header{
   margin:0 auto;
 }
 
+
 @media only screen and (max-width: 580px){
     .logo h1{
         font-size: 20px
@@ -196,6 +202,7 @@ header{
   HOME-IMG SECTION
   ========================================
 */
+
 .home-img{
     background-image: url(../image/home.jpg);
     background-repeat: no-repeat;
@@ -215,6 +222,27 @@ header{
     font-weight: 900;
 }
 
+/*
+  ========================================
+  HEADER & LANDING MEDIA QUERY
+  ========================================
+*/
+
+@media only screen and (max-width: 1080px){
+    .landing-text{
+        padding: 200px 0 0 20px;
+    }
+    
+    .landing-text h1{
+        font-size: 70px
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .landing-text h1{
+        font-size: 50px
+    }
+}
 
 /*
   ========================================
@@ -261,6 +289,38 @@ header{
 
 /*
   ========================================
+  PRODUCTS MEDIA QUERY
+  ========================================
+*/
+
+@media only screen and (max-width: 1080px){
+    .products{
+        padding: 0 150px 50px 150px;
+    }
+}
+
+@media only screen and (max-width: 920px){
+    .products{
+        padding: 0 100px 50px 100px;
+    }
+}
+
+@media only screen and (max-width: 820px){
+    .products{
+        padding: 0 50px 50px 50px;
+    }
+}
+
+@media only screen and (max-width: 620px){
+    .products{
+        padding: 0 10px 50px 10px;
+    }
+}
+
+
+
+/*
+  ========================================
   GRID OF FOUR
   ========================================
 */
@@ -288,7 +348,7 @@ header{
   ========================================
 */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 540px) {
 	.area_4_of_4 {
 		width: 100%; 
 	}
@@ -299,8 +359,11 @@ header{
 		width: 100%; 
 	}
 	.area_1_of_4 {
-		width: 100%; 
+        background: rgb(230, 255, 230);
+		width: 100%;
+        padding: 50px;
 	}
+    
 }
 
 
@@ -387,6 +450,27 @@ header{
     width: 80%;
 }
 
+/*
+  ========================================
+  HEADER & LANDING MEDIA QUERY
+  ========================================
+*/
+
+@media only screen and (max-width: 1120px){
+    .about{
+        padding: inherit;
+    }
+    
+    .about p{
+        font-size: 20px;
+        line-height: 25px;
+        padding: 20px 50px;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    
+}
 
 
 
