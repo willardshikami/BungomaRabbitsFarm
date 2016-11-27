@@ -490,6 +490,28 @@ header{
 }
 
 
+/*
+  ========================================
+  FOOTER
+  ========================================
+*/
+
+.footer{
+    background: #111;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a{
+    color: #FF5656;
+    text-decoration: none;
+}
+
 
 
 
