@@ -249,8 +249,7 @@ header{
 }
 
 .products .btn{
-    background: #444;
-    
+    background: rgb(56, 142, 60);
     border-radius: 30px;
     padding: 10px 20px;
 }
@@ -367,7 +366,7 @@ header{
 */
 
 .about{
-    background: #F2F2F2;
+    background: rgb(230, 255, 230);
     font-family: 'Rubik', sans-serif;
     padding-bottom: 30px
 }
@@ -419,6 +418,74 @@ header{
 	}
 	.area_1_of_2 {
 		width: 100%; 
+	}
+}
+
+
+/*
+  ========================================
+  SERVICES SECTION
+  ========================================
+*/
+.services{
+    font-family: 'Rubik', sans-serif;
+    margin: 40px;
+}
+
+.services h1{
+    font-size: 25px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.services img{
+    float: left;
+    padding: 0 20px ;
+    width: 80px;
+}
+
+.services h2{
+    font-size: 20px;
+    padding: 10px 
+}
+
+
+
+/*
+  ========================================
+  SERVICES SECTION GRID SECTION
+  ========================================
+*/
+
+	
+.area_3_of_3 {
+	width: 100%; 
+}
+
+.area_2_of_3 {
+	width: 66.13%; 
+}
+
+.area_1_of_3 {
+	width: 32.26%; 
+}
+
+
+/*
+  ========================================
+  GO FULL WIDTH AT LESS THAN 480 PIXELS
+  ========================================
+*/
+
+@media only screen and (max-width: 480px) {
+	.area_3_of_3 {
+		width: 100%; 
+	}
+	.area_2_of_3 {
+		width: 100%; 
+	}
+	.area_1_of_3 {
+		width: 100%;
 	}
 }
 
